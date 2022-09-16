@@ -19,7 +19,7 @@ Checkout other video editing Node demo examples in this [Github repo](https://gi
 Clone this repository with following command
 
 ```bash
-git clone https://github.com/shotstack-samples/images-to-videos-Node.git
+git clone https://github.com/shotstack-samples/images-to-videos-nodejs.git
 ```
 
 Go inside the project directory
