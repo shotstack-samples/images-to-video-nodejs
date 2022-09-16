@@ -1,17 +1,17 @@
 # Turn Images To Videos Using Nodejs And Shotstack API
 
-This program turns images to slideshow videos with music using Node js, [Shotstack Node SDK](https://www.npmjs.com/package/shotstack-sdk), and Shotstack API. See [this tutorial](https://shotstack.io/learn/turn-images-into-slideshow-video-nodejs/?utm_source=github&utm_campaign=demo_repos) to learn how it works.
+This program turns images to slideshow videos with music using Node js, [Shotstack Node SDK](https://www.npmjs.com/package/shotstack-sdk), and Shotstack API. See [this tutorial](https://shotstack.io/learn/turn-images-into-slideshow-video-nodejs/?utm_source=github&utm_campaign=sample_demos) to learn how it works.
 
 
 ### What is Shotstack API?
 
-Shotstack API is a cloud based video editing API that enables you to render multiple videos concurrently in the cloud using your favourite programming language. Sign up for a free developer account [here](https://dashboard.shotstack.io/register?utm_source=github&utm_campaign=demo_repos) to get your API key. 
+Shotstack API is a cloud based video editing API that enables you to render multiple videos concurrently in the cloud using your favourite programming language. Sign up for a free developer account [here](https://dashboard.shotstack.io/register?utm_source=github&utm_campaign=sample_demos) to get your API key. 
 
 ### Why use Shotstack API?
 
-Rendering videos is a resource consuming process. It may take several minutes to render one video depending on the complexity of the video. Shotstack enables to concurrently render multiple videos in the powerful cloud infrastructure. This reduces rendering time and fastens the process. Visit our [Docs](https://shotstack.io/docs/guide/getting-started/core-concepts/?utm_source=github&utm_campaign=demo_repos) to learn more.
+Rendering videos is a resource consuming process. It may take several minutes to render one video depending on the complexity of the video. Shotstack enables to concurrently render multiple videos in the powerful cloud infrastructure. This reduces rendering time and fastens the process. Visit our [Docs](https://shotstack.io/docs/guide/getting-started/core-concepts/?utm_source=github&utm_campaign=sample_demos) to learn more.
 
-Checkout other video editing Node demo examples in this [Github repo](https://github.com/shotstack/node-demos).
+Checkout other video editing demo examples using Node in this [Github repo](https://github.com/shotstack/node-demos).
 
 
 ### Installation
@@ -19,7 +19,7 @@ Checkout other video editing Node demo examples in this [Github repo](https://gi
 Clone this repository with following command
 
 ```bash
-git clone https://github.com/shotstack-samples/images-to-videos-nodejs.git
+git clone https://github.com/shotstack-samples/images-to-video-nodejs.git
 ```
 
 Go inside the project directory
@@ -48,7 +48,7 @@ Windows users (Command Prompt):
 set SHOTSTACK_KEY=your_key_here
 ```
 
-You can [get an API key](http://shotstack.io/register?utm_source=github&utm_campaign=demo_repos) by signing up for a free developer account via the Shotstack web site.
+You can [get an API key](https://dashboard.shotstack.io/register?utm_source=github&utm_campaign=sample_demos) by signing up for a free developer account via the Shotstack web site.
 
 
 ### Running the program
@@ -56,7 +56,7 @@ You can [get an API key](http://shotstack.io/register?utm_source=github&utm_camp
 To run this program, run the `images.js` inside the root folder:
 
 ```bash
-Node images-to-videos-Node/images.js
+node images.js
 ```
 
 ### Final video example
@@ -80,4 +80,4 @@ This is just a basic example. You can do way more with Shotstack Node SDK like:
 - Generate, add SRT files to multiple videos concurrently
 - Use AI to generate media assets to produce videos & more
 
-See our other [tutorial articles](https://shotstack.io/learn/?utm_source=github&utm_campaign=demo_repos) to learn video editing using Node js. 
+See our other [tutorial articles](https://shotstack.io/learn/?utm_source=github&utm_campaign=sample_demos) to learn video editing using Node js. 
